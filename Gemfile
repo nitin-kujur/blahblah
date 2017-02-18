@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.5.1'
-gem 'sqlite3'
+# gem 'sqlite3'
+gem 'pg', '~> 0.15'
 
 gem 'dotenv-rails'
 gem 'shopify_app', '~> 7.0.0'
